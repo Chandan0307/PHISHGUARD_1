@@ -1,6 +1,6 @@
 FROM python:3.10.5-alpine
 
-COPY Requirements.txt 
+COPY Requirements.txt .
 
 RUN pip install --no-cache-dir -r Requirements.txt 
 
